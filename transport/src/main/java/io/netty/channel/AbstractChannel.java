@@ -43,7 +43,6 @@ import java.util.concurrent.RejectedExecutionException;
 public abstract class AbstractChannel extends DefaultAttributeMap implements Channel {
 
     private static final InternalLogger logger = InternalLoggerFactory.getInstance(AbstractChannel.class);
-
     private final Channel parent;
     private final ChannelId id;
     private final Unsafe unsafe;
